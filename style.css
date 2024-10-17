@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg);
+    height: 100vh;
+}
+
+main {
+    font-family: 'Star Wars', sans-serif;
+    color: #FCE11C;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    row-gap: 55px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.item {
+    border-radius: 0.5rem;
+    width: 350px;
+    background-color: rgb(252, 252, 252);
+}
+
+h1 {
+    padding-top: 60px;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.deathstar {
+    height: 50vh;
+    padding: 40px;
+    display: block;
+    margin: auto;
+    
+}
+
+h3 {
+    padding-top: 20pxpx;
+    color: aquamarine;
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 27px;
+}
+
+.item {
+    text-align: center;
+    padding: 30px;
+}
+
+.item h3 {
+    color: #361cfc;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 25px;
+}
+
+p {
+    color: #361cfc;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+}
+
+.item img {
+    width: 300px;
+    border-radius: 0.5rem;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+footer p {
+    color: aquamarine;
+}
